@@ -36,9 +36,9 @@ namespace Fo76_Communication.SnapshotData.Components
             Eaten = reader.ReadBoolean();
             HasDeferredLegendaryDrop = reader.ReadBoolean();
             
-            Console.WriteLine(UiKeyWordFlags);
-            Console.WriteLine(reader.BaseStream.Position.ToString("X"));
-            Console.ReadLine();
+            //Console.WriteLine(UiKeyWordFlags);
+            //Console.WriteLine(reader.BaseStream.Position.ToString("X"));
+            //Console.ReadLine();
 
             reader.Close();
         }

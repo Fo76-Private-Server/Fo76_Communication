@@ -171,7 +171,7 @@ namespace Fo76_Communication
 
             if (reader.BaseStream.Position != reader.BaseStream.Length)
             {
-                throw (new Exception("Didn't sequence read to end"));
+                throw (new Exception("Didn't read sequence to end"));
             }
 
             reader.Close();

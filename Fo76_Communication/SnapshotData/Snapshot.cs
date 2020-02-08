@@ -19,6 +19,7 @@ namespace Fo76_Communication.SnapshotData
             {
                 Component component = ParseComponent(reader);
                 this.Components.Add(component);
+                Log.Debug(component.ToString());
             }
             reader.Close();
         }
