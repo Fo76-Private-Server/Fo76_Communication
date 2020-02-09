@@ -49,7 +49,7 @@ namespace Fo76_Communication_Tests
                     throw (new Exception("Unable to parse Line:" + line));
                 }
 
-                if (messageDirection == MessageDirection.Sent)
+                if (messageDirection == MessageDirection.Received)
                 {
                     linesParsed++;
                     continue;
